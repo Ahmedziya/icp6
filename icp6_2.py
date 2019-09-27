@@ -50,5 +50,5 @@ plt.xlabel('Number of Clusters')
 plt.ylabel('Wcss')
 plt.show()
 #sil score
-score = metrics.silhouette_score(X_scaled, y_cluster_kmeans)
+score = metrics.silhouette_score(x, y_cluster_kmeans)
 print('silhouette_score :', score)
